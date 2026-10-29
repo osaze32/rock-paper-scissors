@@ -17,13 +17,14 @@ function getHumanChoice() {
   let humanChoice = prompt("Choose rock, paper, or scissors");
 
   if (humanChoice.toLowerCase() === "rock") {
-    return "rock"
+    return "rock";
   } else if (humanChoice.toLowerCase() === "paper") {
-    return "paper"
+    return "paper";
   } else if (humanChoice.toLowerCase() === "scissors") {
-    return "scissors"
+    return "scissors";
   }
 }
 
-console.log(getHumanChoice())
 
+let humanScore = 0;
+let computerScore  = 0;
